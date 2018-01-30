@@ -1,6 +1,6 @@
-# ETHExplorer V2 based off github.com/etherparty/explorer
+# BCLExplorer V2 based off github.com/etherparty/explorer
 
-![ETHExplorer V2 Screenshot](http://i.imgur.com/wgROAS9.png)
+![BCLExplorer V2 Screenshot](http://i.imgur.com/wgROAS9.png)
 
 ##License
 
@@ -12,12 +12,6 @@ Feel free to modify or reuse the code here.
 
 Discuss this project at: [Reddit Page on /r/ethreum](https://www.reddit.com/r/ethereum/comments/511j5a/new_ethereum_block_explorer_heavily_updated/)
 
-##Donations
-
-ETH Address: 0xee298ae561bD7BE6e1040AFf281202E0b0646BA6
-
-BTC Address: 1AGxSzTPkthdNKfY5usVLwKDLk9i6sPTQj
-
 ##Installation
 
 `git clone https://github.com/carsenk/explorer`
@@ -28,7 +22,7 @@ BTC Address: 1AGxSzTPkthdNKfY5usVLwKDLk9i6sPTQj
 
 `npm start`
 
-Make sure to install geth as well for the ETH explorer to be able to function. Then run:
+Make sure to install geth as well for the BCL explorer to be able to function. Then run:
 
 `geth --rpc --rpcaddr localhost --rpcport 8545 --rpcapi "web3,eth" --rpccorsdomain "http://localhost:8000"`
 
@@ -42,11 +36,7 @@ Then visit http://localhost:8000 in your browser of choice after you npm start t
 
 -You can easily change from a dark or light theme utilizing https://bootswatch.com
 
--There is a basic API implemented now as well as well as a Ethereum Blockchain Information page
-
--Realtime ETH/USD Price Ticker
-
--Realtime Ethereum Hashrate
+-There is a basic API implemented now as well as well as a BCL Blockchain Information page
 
 -Address Pages are integrated with Shapeshift to easily send a payment to an address.
 
