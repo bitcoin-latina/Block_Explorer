@@ -1,6 +1,4 @@
-# BCLExplorer V2 based off github.com/etherparty/explorer
-
-![BCLExplorer V2 Screenshot](http://i.imgur.com/wgROAS9.png)
+# BCLExplorer based off github.com/etherparty/explorer
 
 ##License
 
@@ -8,17 +6,9 @@ The code in this branch is licensed under GPLv3 (see LICENSE file)
 
 Feel free to modify or reuse the code here.
 
-##Reddit
-
-Discuss this project at: [Reddit Page on /r/ethreum](https://www.reddit.com/r/ethereum/comments/511j5a/new_ethereum_block_explorer_heavily_updated/)
-
 ##Installation
 
 `git clone https://github.com/carsenk/explorer`
-
-`npm install`
-
-`bower install`
 
 `npm start`
 
@@ -53,5 +43,4 @@ Then visit http://localhost:8000 in your browser of choice after you npm start t
 -Realtime latest blocks and recent transactions
 
 -Other random blockchain info stats were added
-# block_explorer
 # block_explorer
