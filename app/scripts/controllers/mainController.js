@@ -165,7 +165,7 @@ angular.module('ethExplorer')
         }
 
         /* Formula taken from this repo. Estimates the actual network
-         * hash-rate 
+         * hash-rate
          * https://github.com/badmofo/ethereum-mining-calculator/tree/90f4e5aae595a6877f1a26b43c15a7db35149a22
          */
         function getHashrate() {
@@ -218,8 +218,8 @@ angular.module('ethExplorer')
 
 /*
  * This function takes an array that contains objects of type
- * FORMAT {val: <number>, id: <string>, digit: <number>}, 
- * the value to represent (e.g. difficulty, block size, etc.) 
+ * FORMAT {val: <number>, id: <string>, digit: <number>},
+ * the value to represent (e.g. difficulty, block size, etc.)
  * and returns the value with the better suited scale and format string.
  */
 function transformer(FORMAT, value) {
@@ -305,7 +305,7 @@ filter('BigNum', function() {
         if (isNaN(txt)) return txt;
         var b = new BigNumber(txt);
         var w = web3.fromWei(b, "ether");
-        return w.toFixed(6) + " ETH";
+        return w.toFixed(6) + " BCL";
     };
 }).
 filter('sizeFormat', function() {
@@ -324,15 +324,15 @@ filter('timestampFormat', function() {
         var newDate = new Date();
         newDate.setTime(timestamp * 1000);
         return newDate.toUTCString();
-    
+
     };
 }).
 filter('percentage', function() {
     return function(num) {
         if (isNaN(num)) return num;
-        
+
         return "" + (num*100).toFixed(4);
-    
+
     };
 }).
 filter('timeElapsedFilter', function() {
