@@ -8,7 +8,7 @@ The code in this branch is licensed under GPLv3 (see LICENSE file)
 
 ## Installation
 
-`git clone https://github.com/carsenk/explorer`
+`git clone https://github.com/bitcoin-latina/block_explorer.git`
 
 `npm start`
 
